@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         //initialize
-        timeText =  (TextView) findViewById(R.id.textView);
-        scoreText = (TextView) findViewById(R.id.textView2);
+        timeText  = findViewById(R.id.textView);
+        scoreText = findViewById(R.id.textView2);
         imageView1 = findViewById(R.id.imageView1);
         imageView2 = findViewById(R.id.imageView2);
         imageView3 = findViewById(R.id.imageView3);
